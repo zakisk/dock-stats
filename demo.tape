@@ -15,6 +15,8 @@ Sleep 500ms
 # Run the command by pressing enter.
 Enter
 
+Sleep 1s
+
 Type "y"
 
 # Admire the output for a bit.

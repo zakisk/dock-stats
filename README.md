@@ -10,6 +10,9 @@ dock-stats show [CONTAINER-NAME]
 ```
 <img src="/demo.gif" height="500px"/>
 
+> **Note**
+> `dock-stats` clears screen before it shows graph.
+
 
 ### Installation
 

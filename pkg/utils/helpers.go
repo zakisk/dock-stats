@@ -8,7 +8,7 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/fatih/color"
-	"golang.org/x/crypto/ssh/terminal"
+	"golang.org/x/term"
 )
 
 func IsDockerInstalled() error {
@@ -154,7 +154,7 @@ func Box() {
 }
 
 func GetLine() string {
-	width, _, err := terminal.GetSize(int(os.Stdout.Fd()))
+	width, _, err := term.GetSize(int(os.Stdout.Fd()))
 	if err != nil {
 		return ""
 	}

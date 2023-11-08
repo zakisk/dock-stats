@@ -12,7 +12,8 @@ import (
 )
 
 func IsDockerInstalled() error {
-	return exec.Command("docker", "version").Run()
+	_, err := exec.LookPath("docker")
+	return err
 }
 
 func ClearScreen() {

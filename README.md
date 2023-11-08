@@ -1,5 +1,5 @@
 ### dock-stats
-The `dock-stats`` tool is designed to provide users with detailed statistics and visual representations of resource consumption related to running Docker containers. It gathers real-time data on various aspects of container performance, offering insights into resource usage and performance metrics. Some of the key statistics it displays are related to Resource Utilization, Network I/O, and Block I/O.
+The `dock-stats` tool is designed to provide users with detailed statistics and visual representations of resource consumption related to running Docker containers. It gathers real-time data on various aspects of container performance, offering insights into resource usage and performance metrics. Some of the key statistics it displays are related to Resource Utilization, Network I/O, and Block I/O.
 
 ### Usage
 > To get started, [install dock-stats](#installation) first.

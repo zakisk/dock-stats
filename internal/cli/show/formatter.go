@@ -44,9 +44,7 @@ func (f *formatter) Plot(canvas drawille.Canvas) {
 	diff := len(net) - len(containerId)
 	space = strings.Repeat(" ", diff - 1)
 	fmt.Printf("%s%s", containerId, space)
-	fmt.Print(name)
-	fmt.Print(net)
-	fmt.Print(block)
+	fmt.Print(name, net, block)
 	if f.daemonOSType != winOSType {
 		processes := fmt.Sprintf("PROCESSES (PIDs): %d\n\n", f.pids)
 		fmt.Print(drawille.ColorString(processes, drawille.DeepPink))

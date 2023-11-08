@@ -161,11 +161,3 @@ func getStats(log *logger.Log, statsResponse types.ContainerStats) (chan *StatsI
 	}()
 	return statChan, errChan
 }
-
-func addElement(arr []float64, el float64) []float64 {
-	arr = append([]float64{el}, arr...)
-	if len(arr) > 10 {
-		arr = arr[:10]
-	}
-	return arr
-}

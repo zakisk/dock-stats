@@ -13,9 +13,9 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "dock-stats",
 	Short: "Docker containers stats rendering tool",
-	Long: `As an utility tool it renders container real-time stats more visualy 
+	Long: `A tool to render real-time statistics of running docker containers visually.
 Usage:
-
+dock-stats show ubuntu
 `,
 	PreRunE: func(cmd *cobra.Command, args []string) error {
 		if len(args) == 0 {

@@ -160,10 +160,10 @@ func GetLine() string {
 		return ""
 	}
 
-	dashes := ""
+	hyphens := ""
 	for i := 0; i < width; i++ {
-		dashes += "-"
+		hyphens += "-"
 	}
 
-	return dashes
+	return hyphens
 }
